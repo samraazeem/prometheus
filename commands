@@ -1,0 +1,6 @@
+1. aws eks --region us-east-1 update-kubeconfig --name
+2. kubectl get svc
+3. kubectl create -f filename
+4. kubectl get all
+5. kubectl describe pod_name
+6. kubectl delete deployement/service name
