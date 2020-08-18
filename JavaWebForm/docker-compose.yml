@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  tomcat:
+    image: bitnami/tomcat:latest
+    ports:
+    - 80:8080
+  
