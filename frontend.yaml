@@ -5,7 +5,7 @@ metadata:
   name: frontend
 spec:
   selector:
-    app: maven
+    app: springmvcform
     tier: frontend
   ports:
   - protocol: "TCP"
@@ -20,18 +20,18 @@ metadata:
 spec:
   selector:
     matchLabels:
-      app: maven
+      app: springmvcform
       tier: frontend
       track: stable
   replicas: 1
   template:
     metadata:
       labels:
-        app: maven
+        app: springmvcform
         tier: frontend
         track: stable
     spec:
       containers:
       - name: nginx
-        image: "samraazeem/maven:nginx"
+        image: "samraazeem/maven:nginx1.1"
  
