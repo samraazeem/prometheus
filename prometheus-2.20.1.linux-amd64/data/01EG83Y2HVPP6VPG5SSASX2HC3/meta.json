@@ -1,0 +1,17 @@
+{
+	"ulid": "01EG83Y2HVPP6VPG5SSASX2HC3",
+	"minTime": 1597989600000,
+	"maxTime": 1597996800000,
+	"stats": {
+		"numSamples": 292320,
+		"numSeries": 609,
+		"numChunks": 2436
+	},
+	"compaction": {
+		"level": 1,
+		"sources": [
+			"01EG83Y2HVPP6VPG5SSASX2HC3"
+		]
+	},
+	"version": 1
+}

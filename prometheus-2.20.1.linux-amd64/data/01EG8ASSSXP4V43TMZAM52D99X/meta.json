@@ -1,0 +1,17 @@
+{
+	"ulid": "01EG8ASSSXP4V43TMZAM52D99X",
+	"minTime": 1597996800000,
+	"maxTime": 1598004000000,
+	"stats": {
+		"numSamples": 292320,
+		"numSeries": 609,
+		"numChunks": 2436
+	},
+	"compaction": {
+		"level": 1,
+		"sources": [
+			"01EG8ASSSXP4V43TMZAM52D99X"
+		]
+	},
+	"version": 1
+}
